@@ -399,17 +399,18 @@ def welcome_rules(message):
 @bot.message_handler(commands=['plan'])
 def welcome_plan(message):
     user_name = message.from_user.first_name
-    response = f'''{user_name}, Brother Only 1 Plan Is Powerfull Then Any Other Ddos !!:
+    response = f'''{user_name}, Dude Only 1 Plan Is Powerfull Then Any Other Ddos !!:
 
 Vip 🌟 :
--> Attack Time : 300 (S)
+-> Attack Time : 250 (S)
 > After Attack Limit : 10 sec
 -> Concurrents Attack : 5
 
-Pr-ice List💸 :
-Day-->200 Rs
-Week-->700 Rs
-Month-->1800 Rs
+Prices List💸 :
+Day-->160 Rs.
+Week-->500 Rs.
+Month-->1500 Rs.
+2 Month-->2200 Rs.
 '''
     bot.reply_to(message, response)
 
